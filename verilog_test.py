@@ -8,8 +8,8 @@ with open(solution,"w") as file:
     file.write("")
 
 for i in range(1,11):
-    a = random.randint(1, 100)
-    b = random.randint(1, 100)
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
     print(a,b)
     with open(test_path,"a") as file:
         file.write(f"{a} {b}\n")
